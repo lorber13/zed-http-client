@@ -22,6 +22,7 @@ Use [`rest-nvim/tree-sitter-http`](https://github.com/rest-nvim/tree-sitter-http
 ## Commits
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages (e.g. `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`).
+- Keep commits atomic: one logical change per commit, so each one can be reviewed and reverted on its own.
 
 ## Communication
 
