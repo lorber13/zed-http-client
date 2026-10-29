@@ -1,5 +1,9 @@
 # CLAUDE.md
 
+## Project
+
+An extension for the [Zed](https://zed.dev) editor that provides an HTTP client.
+
 ## Commits
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages (e.g. `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`).
