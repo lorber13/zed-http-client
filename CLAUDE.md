@@ -4,6 +4,21 @@
 
 An extension for the [Zed](https://zed.dev) editor that provides an HTTP client.
 
+## .http format
+
+Follow the common syntax shared by the JetBrains HTTP Client and the VS Code REST Client:
+
+- Request line (`GET https://...`), headers, blank line, body.
+- `###` separates requests.
+- `#` or `//` start a comment.
+- File variables: declare with `@name = value`, use with `{{name}}`.
+- Named requests: `# @name login`, so other requests can reference the response.
+- Environments live in `http-client.env.json` (JetBrains style).
+
+Out of scope for now: JetBrains response-handler (`> {% ... %}`) and pre-request scripts.
+
+Use [`rest-nvim/tree-sitter-http`](https://github.com/rest-nvim/tree-sitter-http) as the grammar.
+
 ## Commits
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages (e.g. `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`).
