@@ -1,0 +1,11 @@
+id = "http-client"
+name = "HTTP Client"
+version = "0.0.1"
+schema_version = 1
+authors = ["Lorenzo Bertetto <lorenzo.bertetto@gmail.com>"]
+description = "Write and send HTTP requests from .http files."
+repository = "https://github.com/lorber13/zed-http-client"
+
+[grammars.http]
+repository = "https://github.com/rest-nvim/tree-sitter-http"
+rev = "db8b4398de90b6d0b6c780aba96aaa2cd8e9202c"
