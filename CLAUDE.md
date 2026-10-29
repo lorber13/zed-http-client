@@ -3,3 +3,4 @@
 ## Commits
 
 - Use [Conventional Commits](https://www.conventionalcommits.org/) for all commit messages (e.g. `feat: ...`, `fix: ...`, `docs: ...`, `chore: ...`).
+- Do not add `Co-Authored-By` or `Claude-Session` trailers (or any other attribution) to commit messages.
