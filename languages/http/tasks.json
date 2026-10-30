@@ -1,8 +1,8 @@
 [
   {
     "label": "Send request",
-    "command": "httpyac send \"$ZED_FILE\" --line $(($ZED_ROW - 1))",
-    "shell": { "program": "sh" },
+    "command": "httpyac",
+    "args": ["send", "$ZED_FILE", "--line", "$ZED_ROW"],
     "tags": ["http-request"]
   }
 ]
