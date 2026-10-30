@@ -29,7 +29,7 @@ Content-Type: application/json
 1. Install httpyac: `npm install -g httpyac`.
 2. Click the ▶ next to a request, or run `editor: spawn nearest task` with the cursor inside it.
 
-The response shows up in the terminal panel. The task runs through `sh`, so it works on macOS and Linux but not on Windows.
+The response shows up in the terminal panel. If a request is directly followed by `###`, with no blank line, httpyac may ask which request to send.
 
 Each run is a separate httpyac process, so a request that uses another request's response needs httpyac's `# @ref` line to send that request first:
 
